@@ -1,0 +1,7 @@
+[plugininstall]
+description=Plugin for view tags from music files
+descriptionrus=Плагин для просмотра тэгов в звуковых файлах
+type=wlx
+version=1.3.3.1
+file=AudioTagView.wlx
+defaultdir=Plugins\wlx\AudioTagView

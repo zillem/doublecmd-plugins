@@ -1,0 +1,5 @@
+[plugininstall]
+description=DiskInternals Reader for Total Commander plays the role of a bridge between your Windows and Ext2/Ext3/Ext4, HFS, ReiserFS, Reiser4, UFS, exFAT, FAT and NTFS file systems.
+type=wfx
+file=DiskInternals_Reader.wfx
+defaultdir=DiskInternals_Reader

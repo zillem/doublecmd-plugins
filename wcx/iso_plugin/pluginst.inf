@@ -1,0 +1,7 @@
+[plugininstall]
+description=Packer plugin for unpacking ISO image files
+descriptionrus=архиваторный плагин для распаковки ISO-образов
+type=wcx
+file=iso.wcx
+defaultdir=ISO
+defaultextension=iso,nrg,img,mdf

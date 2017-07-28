@@ -1,0 +1,6 @@
+[plugininstall]
+description=Cloud plugin 1.08 (32bit+64bit)
+type=wfx
+file=cloudplugin.wfx
+defaultdir=cloudplugin
+version=1.08

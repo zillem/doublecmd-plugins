@@ -1,0 +1,5 @@
+[PluginInstall]
+description=Office2007.wlx plugin v. 0.0.6.3
+type=wlx
+file=Office2007.wlx
+defaultdir=Office2007

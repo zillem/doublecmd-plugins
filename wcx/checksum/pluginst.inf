@@ -1,0 +1,6 @@
+[plugininstall]
+description=MD5/SHA1 checksum generator/checker v0.2b
+type=wcx
+file=checksum.wcx
+defaultdir=checksum
+defaultextension=md5,sha

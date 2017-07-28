@@ -1,0 +1,11 @@
+[plugininstall]
+description=xPDFSearch can be used to perform fulltext search in PDF files. In addition xPDFSearch provides meta data information from PDF files.
+descriptiondeu=Mit xPDFSearch kann eine Volltextsuche in PDF Dateien durchgefьhrt werden. Zusдtzlich bietet xPDFSearch Zusatzinformationenen aus PDF-Dateien an.
+descriptiondan=xPDFSearch kan bruges til at foretage fuldtekst sшgning i PDF filer. Desuden stiller xPDFSearch meta data information fra PDF filer til rеdighed.
+descriptionesp=xPDFSearch puede ser usado para realizar bъsquedas de texto en ficheros PDF. Ademбs xPDFSearch proporciona informaciуn extra incluida en ficheros PDF.
+descriptionrus=ѕлагин xPDFSearch позвол€ет выполн€ть полнотекстовый поиск в PDF-файлах, также предоставл€ет возможность показа свойств PDF-файлов.
+descriptionhr=xPDFSearch moЮe pretraЮivati sadrЮaj teksta u PDF dokumentima. Dodatno omoguжava dohvat meta podataka iz PDF datoteka.
+type=wdx
+file=xPDFSearch.wdx
+defaultdir=xPDFSearch
+version=1.11
