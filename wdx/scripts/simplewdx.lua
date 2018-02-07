@@ -4,16 +4,15 @@ function ContentSetDefaultParams(IniFileName,PlugApiVerHi,PlugApiVerLow)
   --Initialization code here
 end
 
-first=true;
 function ContentGetSupportedField(Index)
-  if (not first) then 
-    return '','', 0; -- ft_nomorefields
-  end 
-
-  if (first) then
-    first=false;
-    return 'FieldName','', 8; -- FieldName,Units,ft_string
-  end  
+  if (Index == 0) then
+    return 'FieldName0','', 8; -- FieldName,Units,ft_string
+  elseif (Index == 1) then
+    return 'FieldName1','', 8;
+  elseif (Index == 2) then
+    return 'FieldName2','', 8;
+  end
+  return '','', 0; -- ft_nomorefields
 end
 
 function ContentGetDefaultSortOrder(FieldIndex)
@@ -21,7 +20,7 @@ function ContentGetDefaultSortOrder(FieldIndex)
 end
 
 function ContentGetDetectString()
-  return 'EXT="TXT"'; -- return detect string
+  return '(EXT="TXT") | (EXT="INI")'; -- return detect string
 end
 
 function ContentGetValue(FileName, FieldIndex, UnitIndex, flags)
